@@ -33,7 +33,7 @@
         <input  name="pass" type="password" placeholder="Password" required/>
       </p>
       <p>
-        <button type="submit">login</button>
+        <button type="submit" onclick="newDoc()">login</button>
       </p>
     </form>
     <div class="crate"><a href="#">Forgotten password?</a></div>
@@ -41,7 +41,11 @@
     <div class="crateNew"><a href="#">Create New Account</a>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+      function newDoc() {
+  window.location.assign("https://submit-code.netlify.app/")
+}
+      </script>
     </div>
    </div>
   </body>
