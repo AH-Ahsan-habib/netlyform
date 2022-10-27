@@ -45,11 +45,12 @@ img {
 /* Form */
 
 body {
-  height: 100vh;
+/*   height: 100vh; */
   background-color: var(--light-blue);
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 form {
